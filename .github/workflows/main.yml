@@ -1,0 +1,10 @@
+name: Run all Commands 
+on: [push]
+
+
+jobs:
+  run-shell-command:
+    run-on: ubuntu-latest
+    steps:
+      - name: Echo a string
+        run: echo "hello dev this is a test for github action"
